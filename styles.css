@@ -90,29 +90,13 @@ svg {
   letter-spacing: -0.5px;
 }
 
-.brand-mark {
-  display: grid;
+.brand-logo {
   width: 38px;
   height: 38px;
-  place-items: center;
-  border-radius: 12px;
-  background: var(--blue);
+  flex: 0 0 auto;
+  border-radius: 24%;
+  object-fit: cover;
   box-shadow: 0 8px 18px rgba(40, 105, 238, 0.24);
-}
-
-.brand-mark svg {
-  width: 28px;
-  height: 28px;
-  stroke: white;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 2.1;
-}
-
-.brand-mark circle {
-  fill: var(--orange);
-  stroke: white;
-  stroke-width: 1.6;
 }
 
 .desktop-nav {
@@ -1806,10 +1790,9 @@ footer {
     font-size: 19px;
   }
 
-  .brand-mark {
+  .brand-logo {
     width: 35px;
     height: 35px;
-    border-radius: 11px;
   }
 
   .language-button {
